@@ -64,6 +64,7 @@ public class UserController {
         }
     }
 
+
     @RequestMapping(method = RequestMethod.DELETE,value = "/User/{id}")
     public ResponseEntity<SuccessResponse>  deleteUser(@PathVariable String id){
         try {
