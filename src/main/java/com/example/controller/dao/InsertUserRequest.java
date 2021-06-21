@@ -1,0 +1,18 @@
+package com.example.controller.dao;
+
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
+
+@Getter
+@Setter
+@NoArgsConstructor
+@AllArgsConstructor
+public class InsertUserRequest {
+
+    private String id;
+    private String name;
+    private String salary;
+
+}
